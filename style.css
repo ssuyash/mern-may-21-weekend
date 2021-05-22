@@ -1,0 +1,56 @@
+/* .text-red{
+    color:red
+} */
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+
+.para{
+    color:rgb(21, 162, 194);
+    font-size:2em;
+    text-align: justify;
+    text-decoration: underline;
+    text-decoration-color:red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-transform: capitalize;
+    line-height:50px;
+    word-spacing: 10px;
+    letter-spacing:10px;
+    text-indent: 50px;
+    font-family:'KoHo' ;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color:red;
+}
+
+
+
+
+/* 
+    color => 
+        i) colorName || red, blue, yellow
+        ii) hex code || #951, #f7878f
+        iii) rgb   || rgb(120, 201, 124)
+        iv) rgba   ||  rgba(120, 201, 124, 0.5)
+        v) hsl
+
+
+    font-size => 
+        i) px
+        ii) em  || 1em = 16px
+        iii) rem || 1rem = font size of root element
+        iv) %
+    
+    text-align => center, left, right, justify
+
+    text-decoration: underline, overline, line-through, none
+
+
+    text-decoration-style: dashed, dotted, double, wavy, groove
+
+
+     text-transform: uppercase, lowercase, capitalize;
+*/
