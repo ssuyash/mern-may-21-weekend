@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
 
 .para{
-    color:rgb(21, 162, 194);
+    color:rgb(60, 0, 255);
     font-size:2em;
     text-align: justify;
     text-decoration: underline;
@@ -19,6 +19,7 @@
     font-family:'KoHo' ;
     font-weight: bold;
     font-style: italic;
+    background: #ff0000;
 }
 
 a{
@@ -27,6 +28,31 @@ a{
 }
 
 
+.bg-red{
+    background:red
+}
+
+
+
+.bg-yellow{
+    background:yellow
+}
+
+
+h1{
+    display: inline-block;
+    margin:200px;
+    padding:10px 0px;
+    padding-left:25px;    
+}
+
+a{
+    display: block;
+}
+
+.mt-20{
+    margin-top:20px
+}
 
 
 /* 
@@ -53,4 +79,20 @@ a{
 
 
      text-transform: uppercase, lowercase, capitalize;
+
+
+
+
+     display : inline >>> element will take only width which is required
+             : block  >>> element will take 100% width of its parent
+             : inline-block >> element will take width what we have given to it
+
+
+    margin >> shifts element from outside
+        margin:
+        margin-left
+        margin-top
+        margin-right
+        margin-bottom
 */
+

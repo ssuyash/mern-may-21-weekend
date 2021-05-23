@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.clear{
+    clear:both;
+}
+.header{
+    height:60px;
+    background:red;
+}
+
+.nav{
+    height:30px;
+    background:green;
+}
+
+.left-body{
+    height:500px;
+    background:blue;
+    float:left;
+    width:15%
+}
+
+.center-body{
+    height:500px;
+    background:pink;
+    float:left;
+    width:70%
+}
+
+.right-body{
+    height:500px;
+    background:gray;
+    float: left;
+    width:15%
+
+}
+
+.footer{
+    height:50px;
+    background:greenyellow;
+}

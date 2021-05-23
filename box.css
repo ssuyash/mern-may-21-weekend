@@ -1,0 +1,17 @@
+
+body{
+    font-size:40px;
+}
+
+.div-1{
+    background:red;
+    float:left;
+    width:50%
+}
+
+
+.div-2{
+    background:yellow;
+    float: left;
+    width:50%
+}
