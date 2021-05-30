@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background:gray;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+    align-items: flex-end;
+}
+
+.item-1{
+    background:red;
+    flex-grow:1
+}
+
+.item-2{
+    background:pink;
+    flex-grow:2
+}
+
+.item-3{
+    background: yellow;
+    flex-grow:1
+}
+
+
+.item-4{
+    background: green;
+    flex-grow:1
+}

@@ -5,14 +5,29 @@
 .clear{
     clear:both;
 }
-.header{
-    height:60px;
+.header{    
     background:red;
 }
 
-.nav{
-    height:30px;
+.header img{
+    width:50px;
+
+}
+
+.nav{    
     background:green;
+}
+
+
+
+.nav ul{
+    list-style-type: none;
+    margin-left:1000px;
+}
+
+.nav ul li{
+    float:left;
+    padding:10px 50px;
 }
 
 .left-body{
@@ -40,4 +55,12 @@
 .footer{
     height:50px;
     background:greenyellow;
+}
+
+.left-body ul li{
+    padding: 10px 20px;
+}
+.left-body ul li a{
+    color:white;
+   
 }

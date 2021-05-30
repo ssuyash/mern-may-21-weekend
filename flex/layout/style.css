@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    background:red;
+    padding:25px 0px;
+}
+
+
+.nav{
+    background:pink;
+    padding:10px 0px;
+}
+.main{
+    display:flex;
+}
+.left{
+    height:350px;
+    flex-grow:1;
+    background:green;
+}
+
+.center{
+    height:350px;
+    flex-grow:4;
+    background:yellow;
+}
+
+.right{
+    height:350px;
+    flex-grow:1;
+    background:brown;
+   
+}
+
+.footer{
+    padding:30px 0px;
+    background:gray;
+}
